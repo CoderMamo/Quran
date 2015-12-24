@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="الرئيسية" />
+        <item
+            android:id="@+id/nav_first"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="الخاقانية" />
+        <item
+            android:id="@+id/nav_sec"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="السخاوية" />
+        <item
+            android:id="@+id/nav_third"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="الجزرية" />
+        <item
+            android:id="@+id/nav_forth"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="التحفة" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/about"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="عن التطبيق"
+            />
+    </group>
+</menu>
